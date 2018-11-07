@@ -1,0 +1,89 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 1.5rem;
+  background-color: #f2f2f2;
+}
+
+section {
+  display: flex;
+}
+
+h2 {
+  margin: 0;
+  font-weight: bold;
+  padding: 0 0 1.5rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+img {
+  margin: 0 auto 1.5rem;
+  width: 100px;
+  display: block;
+}
+
+.card {
+  background-color: #e2e2e2;
+  flex-direction: row;
+  padding: .75rem;
+  font-size: 1rem;
+  border-left: 1px solid #000;
+  width: 25%;
+}
+
+.card h3 {
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 0 auto;
+}
+
+.card small {
+  font-size: .875rem;
+  font-style: italic;
+}
+
+.card p {
+  margin: 0 0 1.5rem;
+  flex-grow: 1;
+}
+
+.card2 {
+  background-color: #ccc;
+}
+
+.card3 {
+  background-color: #aaa;
+}
+
+.card4 {
+  background-color: #999;
+  border-right: 1px solid #000;
+}
+
+.btn {
+  display: flex;
+  bottom: 0;
+  color: #fff;
+  text-decoration: none;
+  padding: .5em .85em;
+  border-radius: 8px;
+  background-color: #333;
+}
+
+.btn-small {
+  font-size: .9rem;
+}
+
+.btn:hover {
+  background-color: #000;
+}

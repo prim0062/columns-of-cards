@@ -16,7 +16,7 @@ html:
     outline: false
     has:
       - ['link[href*="Open+Sans"]', 'The Google Font, `Open Sans` is missing']
-      - ['h2', 'An `<h2>` makes sense in this situation because this is part of a larger website']
+      - ['h3', 'An `<h3>` makes sense in this situation because this is part of a larger website']
       - 'h3'
       - 'section'
       - 'div'
