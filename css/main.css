@@ -28,23 +28,26 @@ h2 {
 
 img {
   margin: 0 auto 1.5rem;
-  width: 100px;
+  width: 100%;
+  max-width: 100px;
   display: block;
 }
 
 .card {
   background-color: #e2e2e2;
-  flex-direction: row;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: .75rem;
   font-size: 1rem;
-  border-left: 1px solid #000;
+  border-left: 1px solid #333;
   width: 25%;
 }
 
 .card h3 {
   font-weight: bold;
   font-size: 1rem;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .card small {
@@ -67,7 +70,7 @@ img {
 
 .card4 {
   background-color: #999;
-  border-right: 1px solid #000;
+  border-right: 1px solid #333;
 }
 
 .btn {
